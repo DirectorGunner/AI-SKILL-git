@@ -1,0 +1,170 @@
+{
+  "schema_version": 1,
+  "topics": [
+    {
+      "topic": "Setup and Configuration",
+      "file": "references/setup-and-config.md",
+      "summary": "Creating repositories with init/clone, the layered git config scopes and common keys, and ignoring files with .gitignore.",
+      "keywords": [
+        "init",
+        "clone",
+        "config",
+        "gitignore",
+        "user.name",
+        "scopes",
+        "global",
+        "core.excludesFile"
+      ]
+    },
+    {
+      "topic": "Snapshotting Changes",
+      "file": "references/snapshotting.md",
+      "summary": "The index/staging area and recording work: add, status, commit, restore, reset paths, rm, mv, and clean.",
+      "keywords": [
+        "add",
+        "status",
+        "commit",
+        "restore",
+        "staging",
+        "index",
+        "rm",
+        "clean"
+      ]
+    },
+    {
+      "topic": "Branching and Merging",
+      "file": "references/branching-and-merging.md",
+      "summary": "Branches, switching with switch/checkout, merging and fast-forward, conflict resolution, and tags.",
+      "keywords": [
+        "branch",
+        "switch",
+        "checkout",
+        "merge",
+        "fast-forward",
+        "conflict",
+        "tag",
+        "no-ff"
+      ]
+    },
+    {
+      "topic": "Rewriting History",
+      "file": "references/rewriting-history.md",
+      "summary": "Amending, reset modes (soft/mixed/hard), rebase and interactive rebase, cherry-pick, revert, and reflog recovery.",
+      "keywords": [
+        "amend",
+        "reset",
+        "rebase",
+        "interactive",
+        "cherry-pick",
+        "revert",
+        "reflog",
+        "squash"
+      ]
+    },
+    {
+      "topic": "Inspection and Comparison",
+      "file": "references/inspection-and-comparison.md",
+      "summary": "Reading history and comparing states with log, diff, show, blame, bisect, grep, and describe.",
+      "keywords": [
+        "log",
+        "diff",
+        "show",
+        "blame",
+        "bisect",
+        "grep",
+        "describe",
+        "pickaxe"
+      ]
+    },
+    {
+      "topic": "Remotes and Syncing",
+      "file": "references/remotes-and-sync.md",
+      "summary": "Managing remotes and exchanging work with fetch, pull, push, upstream tracking, and refspecs.",
+      "keywords": [
+        "remote",
+        "fetch",
+        "pull",
+        "push",
+        "upstream",
+        "refspec",
+        "force-with-lease",
+        "origin"
+      ]
+    },
+    {
+      "topic": "Refs and Revisions",
+      "file": "references/refs-and-revisions.md",
+      "summary": "Naming commits, refs, and ranges (HEAD~, ^, @{}, A..B), refspecs, and core glossary vocabulary.",
+      "keywords": [
+        "revision",
+        "range",
+        "HEAD",
+        "refspec",
+        "ref",
+        "reflog-syntax",
+        "tree-ish",
+        "glossary"
+      ]
+    },
+    {
+      "topic": "Hooks and Attributes",
+      "file": "references/hooks-and-automation.md",
+      "summary": "Customizing Git with lifecycle hooks and per-path .gitattributes (line endings, diff/merge drivers, filters, export).",
+      "keywords": [
+        "githooks",
+        "pre-commit",
+        "pre-push",
+        "gitattributes",
+        "eol",
+        "filter",
+        "export-ignore",
+        "core.hooksPath"
+      ]
+    },
+    {
+      "topic": "Recovery and Maintenance",
+      "file": "references/recovery-and-maintenance.md",
+      "summary": "Recovering lost commits with reflog, checking integrity with fsck, and optimizing with gc and prune.",
+      "keywords": [
+        "reflog",
+        "fsck",
+        "gc",
+        "prune",
+        "lost",
+        "dangling",
+        "ORIG_HEAD",
+        "recovery"
+      ]
+    },
+    {
+      "topic": "Stash, Worktrees, and Submodules",
+      "file": "references/stash-and-worktrees.md",
+      "summary": "Shelving changes with stash, multiple worktrees, embedded submodules, sparse-checkout, and exporting with archive/bundle.",
+      "keywords": [
+        "stash",
+        "worktree",
+        "submodule",
+        "sparse-checkout",
+        "archive",
+        "bundle",
+        "gitmodules",
+        "shelve"
+      ]
+    },
+    {
+      "topic": "Plumbing",
+      "file": "references/plumbing.md",
+      "summary": "Low-level scripting and object-model inspection: rev-parse, cat-file, hash-object, ls-files/ls-tree, update-ref, rev-list, for-each-ref, merge-base, check-ignore.",
+      "keywords": [
+        "plumbing",
+        "rev-parse",
+        "cat-file",
+        "hash-object",
+        "rev-list",
+        "for-each-ref",
+        "merge-base",
+        "check-ignore"
+      ]
+    }
+  ]
+}
